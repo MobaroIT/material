@@ -85,5 +85,6 @@
     "current-branch": "git rev-parse --abbrev-ref HEAD",
     "merge-base": "git merge-base $(npm run -s current-branch) origin/master",
     "squash": "git rebase -i $(npm run -s merge-base)"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }

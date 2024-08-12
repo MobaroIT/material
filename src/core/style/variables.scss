@@ -1,6 +1,6 @@
 // Function
 //-- Must be defined before variables
-@function rem($multiplier) {
+@function rem-calculate($multiplier) {
   $font-size: 10px;
   @return $multiplier * $font-size;
 }
@@ -10,16 +10,16 @@
 $font-family: Roboto, 'Helvetica Neue', sans-serif !default;
 $font-size:   10px !default;
 
-$display-4-font-size-base: rem(11.20) !default;
-$display-3-font-size-base: rem(5.600) !default;
-$display-2-font-size-base: rem(4.500) !default;
-$display-1-font-size-base: rem(3.400) !default;
-$headline-font-size-base:  rem(2.400) !default;
-$title-font-size-base:     rem(2.000) !default;
-$subhead-font-size-base:   rem(1.600) !default;
+$display-4-font-size-base: rem-calculate(11.20) !default;
+$display-3-font-size-base: rem-calculate(5.600) !default;
+$display-2-font-size-base: rem-calculate(4.500) !default;
+$display-1-font-size-base: rem-calculate(3.400) !default;
+$headline-font-size-base:  rem-calculate(2.400) !default;
+$title-font-size-base:     rem-calculate(2.000) !default;
+$subhead-font-size-base:   rem-calculate(1.600) !default;
 
-$body-font-size-base:      rem(1.400) !default;
-$caption-font-size-base:   rem(1.200) !default;
+$body-font-size-base:      rem-calculate(1.400) !default;
+$caption-font-size-base:   rem-calculate(1.200) !default;
 
 // Layout
 // ------------------------------
@@ -33,10 +33,10 @@ $layout-breakpoint-md:     1280px !default;
 $layout-breakpoint-lg:     1920px !default;
 
 // Button
-$button-left-right-padding: rem(0.600) !default;
+$button-left-right-padding: rem-calculate(0.600) !default;
 
 // Icon
-$icon-size: rem(2.400) !default;
+$icon-size: rem-calculate(2.400) !default;
 
 // App bar variables
 $app-bar-height: 64px !default;
@@ -113,9 +113,9 @@ $swift-linear: all $swift-linear-duration $swift-linear-timing-function !default
 
 // Fab Buttons (shared between buttons.scss and fab*.scss)
 // -------------------------------------------
-$button-fab-width: rem(5.600) !default;
-$button-fab-height: rem(5.600) !default;
-$button-fab-padding: rem(1.60) !default;
+$button-fab-width: rem-calculate(5.600) !default;
+$button-fab-height: rem-calculate(5.600) !default;
+$button-fab-padding: rem-calculate(1.60) !default;
 
 
 // Shared Checkbox variables

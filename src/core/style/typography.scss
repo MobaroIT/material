@@ -41,17 +41,17 @@ ul, ol, p, h1, h2, h3, h4, h5, h6 {
 .md-display-2 {
   font-size: $display-2-font-size-base;
   font-weight: 400;
-  line-height: rem(6.4);
+  line-height: rem-calculate(6.4);
 }
 .md-display-1 {
   font-size: $display-1-font-size-base;
   font-weight: 400;
-  line-height: rem(4);
+  line-height: rem-calculate(4);
 }
 .md-headline {
   font-size: $headline-font-size-base;
   font-weight: 400;
-  line-height: rem(3.2);
+  line-height: rem-calculate(3.2);
 }
 .md-title {
   @include md-title();

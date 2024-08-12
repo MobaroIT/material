@@ -16,7 +16,7 @@ $toolbar-height-mobile-landscape: 48px !default;
 $toolbar-indent-margin: 64px !default;
 $toolbar-padding: 16px !default;
 
-$icon-button-margin-offset: rem(-0.800) !default;
+$icon-button-margin-offset: rem-calculate(-0.800) !default;
 
 md-toolbar {
   box-sizing: border-box;
@@ -26,7 +26,7 @@ md-toolbar {
   position: relative;
   z-index: 2;
 
-  font-size: rem(2.0);
+  font-size: rem-calculate(2.0);
   min-height: $baseline-grid * 8;
   width: 100%;
 

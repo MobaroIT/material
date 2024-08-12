@@ -1,16 +1,16 @@
-$chip-font-size: rem(1.6) !default;
-$chip-height: rem(3.2) !default;
-$chip-padding: 0 rem(1.2) 0 rem(1.2) !default;
+$chip-font-size: rem-calculate(1.6) !default;
+$chip-height: rem-calculate(3.2) !default;
+$chip-padding: 0 rem-calculate(1.2) 0 rem-calculate(1.2) !default;
 $chip-input-padding: 0 !default;
-$chip-remove-padding-right: rem(2.2) !default;
-$chip-remove-line-height: rem(2.2) !default;
-$chip-margin: rem(0.8) rem(0.8) 0 0 !default;
-$chip-wrap-padding: 0 0 rem(0.8) rem(0.3) !default;
-$chip-delete-icon-size: rem(1.8) !default;
-$contact-chip-padding: 0 rem(2.5) 0 0 !default;
-$contact-chip-suggestion-image-height: rem(4.0) !default;
-$contact-chip-suggestion-margin: rem(0.8) !default;
-$contact-chip-name-width: rem(12) !default;
+$chip-remove-padding-right: rem-calculate(2.2) !default;
+$chip-remove-line-height: rem-calculate(2.2) !default;
+$chip-margin: rem-calculate(0.8) rem-calculate(0.8) 0 0 !default;
+$chip-wrap-padding: 0 0 rem-calculate(0.8) rem-calculate(0.3) !default;
+$chip-delete-icon-size: rem-calculate(1.8) !default;
+$contact-chip-padding: 0 rem-calculate(2.5) 0 0 !default;
+$contact-chip-suggestion-image-height: rem-calculate(4.0) !default;
+$contact-chip-suggestion-margin: rem-calculate(0.8) !default;
+$contact-chip-name-width: rem-calculate(12) !default;
 
 .md-contact-chips {
   .md-chips {
@@ -26,7 +26,7 @@ $contact-chip-name-width: rem(12) !default;
       .md-contact-name {
         display: inline-block;
         height: $chip-height;
-        @include rtl-prop(margin-left, margin-right, rem(0.8));
+        @include rtl-prop(margin-left, margin-right, rem-calculate(0.8));
       }
     }
   }
@@ -71,7 +71,7 @@ $contact-chip-name-width: rem(12) !default;
       @include rtl-prop(padding-right, padding-left, $chip-remove-padding-right);
 
       ._md-chip-content {
-        @include rtl-prop(padding-right, padding-left, rem(0.4));
+        @include rtl-prop(padding-right, padding-left, rem-calculate(0.4));
       }
     }
   }

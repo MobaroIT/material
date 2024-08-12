@@ -2,23 +2,23 @@ $button-border-radius: 3px !default;
 $button-fab-border-radius: 50% !default;
 $button-icon-border-radius: $button-fab-border-radius !default;
 
-$button-line-height: rem(3.60) !default;
-$button-margin: rem(0.600) rem(0.800) !default;
-$button-min-width: rem(8.800) !default;
+$button-line-height: rem-calculate(3.60) !default;
+$button-margin: rem-calculate(0.600) rem-calculate(0.800) !default;
+$button-min-width: rem-calculate(8.800) !default;
 $button-padding: 0 $button-left-right-padding !default;
 
 
 // Fab buttons
-$button-fab-line-height: rem(5.600) !default;
-$button-fab-mini-width: rem(4.00) !default;
-$button-fab-mini-height: rem(4.00) !default;
-$button-fab-mini-line-height: rem(4.00) !default;
+$button-fab-line-height: rem-calculate(5.600) !default;
+$button-fab-mini-width: rem-calculate(4.00) !default;
+$button-fab-mini-height: rem-calculate(4.00) !default;
+$button-fab-mini-line-height: rem-calculate(4.00) !default;
 
 $button-fab-toast-offset: $button-fab-height * 0.75 !default;
 
-$icon-button-height: rem(4.000) !default;
-$icon-button-width: rem(4.000) !default;
-$icon-button-margin: rem(0.600) !default;
+$icon-button-height: rem-calculate(4.000) !default;
+$icon-button-width: rem-calculate(4.000) !default;
+$icon-button-margin: rem-calculate(0.600) !default;
 
 // Fix issue causing buttons in Firefox to be 2px bigger than they should
 button.md-button::-moz-focus-inner {
